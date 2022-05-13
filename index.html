@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="desktop.css" media="(min-width:992px)">
+
+    <!-- <link rel="stylesheet" href="print.css" media="print"> -->
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header--title">Progats</h1>
+        <img class="header--logo" src="./img/logo.webp" alt="logo progats">
+        <nav class="menu">
+            <a class="menu--item" href="">Equipo</a>
+            <a class="menu--item" href="">Servicios</a>
+            <a class="menu--item" href="">Contacto</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <p>¡Un hogar para cada gatito!</p>
+    </section>
+    <h2 class="members--title">Equipo</h2>
+    <section class="members">
+        <article class="members--card card__patricia">
+            <h3 class="members--name">Patricia</h3>
+            <p class="members--role">Fundadora</p>
+        </article>
+        <article class="members--card card__veronica">
+            <h3 class="members--name">Verónica</h3>
+            <p class="members--role">Voluntaria</p>
+        </article>
+        <article class="members--card card__edurne">
+            <h3 class="members--name">Edurne</h3>
+            <p class="members--role">Voluntaria</p>
+        </article>
+    </section>
+    <footer class="footer">
+        <p class="footer--description">PROGAT es una asociación sín ánimo de lucro. Apóyanos con <strong>
+                <a class="footer--link" href="https://www.progatslagarriga.com">una
+                    donación</a>
+            </strong>. ¡Muchas
+            gracias!</p>
+        <p id="mensaje-adopcion">Actualmente hay <span id="num-gatos">6</span> gato/s por adoptar!</p>
+    </footer>
+    <div id="swipeUp">
+        <a href="#top"><img src="./img/paw.png" alt="swipe up arrow"></a>
+    </div>
+    <script>
+        // 1. Completa el código para que por consola se muestre el contenido textual del nodo h1
+
+        console.log(document.querySelector("h1").textContent);
+
+        // 2. Completa el código para cambiar el título h1 por "SuperProGats"
+
+        document.querySelector("h1")
+
+        // 3. Completa el código para mostrar por consola el contenido del segundo h3. Por la consola debe aparecer "Verónica"
+
+         console.log(document.querySelector(""));
+
+        // 4. Completa el código para mostrar por consola el valor del atributo "href" del enlace del footer. Debería aparecer "https://www.progatslagarriga.com"
+
+        // 5. Completa el código para cambiar el logo del gato por el logo ubicado en img/logo-2.jfif
+
+        // document.querySelector("");
+
+        // 6. Investiga como cambiar el color de fondo del body a través de la propiedad  backGroundColor. Investiga cómo cambiar el color de fondo al valor de la variable "nuevoColor".
+
+        let nuevoColor = "aliceblue";
+
+        // 7. La variable 'window' es una variable global que almacena información relevante sobre el navegador. Investiga como conocer el tamaño actual del viewport, horintal y vertical. https://www.w3schools.com/js/js_window.asp 
+        // Muestra el viewport actual con el formato anchoxalto. Ejemplo: 1280x780 (estos números dependerán de tu viewport, claro)
+
+        console.log("Viewport actual: " , window);
+
+        // 8. Investiga como recuperar información sobre la URL en la que nos encotramos. https://www.w3schools.com/js/js_window_location.asp
+
+        console.log("La URL en la que me hallo es: ", window);
+
+        // 9. Ve a la siguiente página y pulsa el botón "Try IT". https://www.w3schools.com/js/tryit.asp?filename=tryjs_api_geolocation
+        // Podrías explicar que ha sucedido al ejecutar el código JavaScript?
+        
+
+    </script>
+
+</body>
+
+</html>
